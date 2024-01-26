@@ -2,9 +2,9 @@ import snowflake.connector
 
 def connect():
     sfconnection = snowflake.connector.connect(
-        account="rn68956.us-east-2.aws",
-        user="Tehnic",
-        password="Stolik1209!",
+        account="{account_name}",
+        user="{username}",
+        password="{snowPass}!",
         warehouse="COMPUTE_WH",
         database="COVID19_EPIDEMIOLOGICAL_DATA",
         schema="PUBLIC",
